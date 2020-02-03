@@ -2,7 +2,11 @@
 
 ## Documentation
 
-Fill this out as you complete the challenge
+### How to run
+
+To build the app, run `docker-compose build` and `docker-compose up`.
+
+Visit `localhost:5000` in your browser to view the app.
 
 ## Setup
 
