@@ -1,4 +1,4 @@
-# Penn Labs DevOps Challenge
+# Penn Labs DevOps Challenge  [![Build Status](https://travis-ci.com/KeenWill/PennLabs-DevOps-Challenge.svg?branch=master)](https://travis-ci.com/KeenWill/PennLabs-DevOps-Challenge)
 
 ## Documentation
 
