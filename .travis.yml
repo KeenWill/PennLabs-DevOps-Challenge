@@ -1,0 +1,6 @@
+language: shell
+sudo: required
+services:
+- docker
+script:
+- docker build -t pennlabs-devops-challenge .
