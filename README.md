@@ -5,7 +5,7 @@
 - Created a docker-compose app that combines the Flask container with a redis container for a nice database/cache.
 - Created a travis CI/CD workflow that builds the Flask app and puts the docker container on [Docker Hub](https://hub.docker.com/repository/docker/williamgoeller/pennlabs_devops_challenge)
 - Using the kubeconfig provided by Peyton, deployed the Flask app and a Redis container to a DO-managed k8s cluster (config files are in `/kube/`).
-- Connected a domain to the app ([bennbabs.williamgoeller.com](http://bennbabs.williamgoeller.com))
+- Connected a domain to the app ([bennbabs.williamgoeller.com](https://bennbabs.williamgoeller.com))
 
 ## How to run (Locally)
 
