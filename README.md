@@ -17,4 +17,4 @@ Visit `localhost:5000` in your browser to view the app.
 
 ### How to kubernetes?
 
-Setup `kubectl` to connect to a cluster. Run `kubectl apply -f ./kube/`. Eventually (hopefully) an external IP should be assigned to the app (run `kubectl get svc app --watch` to watch the app service for an external ip update). Go to the IP in ur favorite browser. profit.
+Setup `kubectl` to connect to a cluster. Run `kubectl apply -f ./kube/`. Eventually (hopefully) an external IP will be assigned to the app (run `kubectl get svc app --watch` to watch the app service for an external ip update). Go to the IP in ur favorite browser. profit.
