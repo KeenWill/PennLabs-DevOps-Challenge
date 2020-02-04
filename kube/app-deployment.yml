@@ -7,15 +7,11 @@ spec:
   selector:
     matchLabels:
       app: pennlabs
-      tier: frontend
-      track: stable
   replicas: 1
   template:
     metadata:
       labels:
         app: pennlabs
-        tier: frontend
-        track: stable
     spec:
       containers:
       - name: app
