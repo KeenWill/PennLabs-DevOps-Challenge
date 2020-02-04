@@ -3,7 +3,7 @@ sudo: required
 services:
 - docker
 script:
-- docker build -t pennlabs-devops-challenge .
+- docker build -t williamgoeller/pennlabs_devops_challenge .
 deploy:
     provider: script
     script: bash docker_push
