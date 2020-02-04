@@ -24,7 +24,7 @@ def index():
         visitors = int(redis_client.get('visitors'))
         formatted_visitors = "1 visitor" if visitors == 1 else f"{visitors} visitors"
         redis_client.set("visitors", visitors + 1)
-        return f"We have had: {formatted_visitors}"
+        return f"Welcome Beyton, Barmaan, and Barvish, we have had: {formatted_visitors}"
     else:
         return "Not connected to redis"
 
