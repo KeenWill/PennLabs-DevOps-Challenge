@@ -7,7 +7,7 @@ from redis.exceptions import ConnectionError
 
 # Configure Flask + Redis
 app = Flask(__name__)
-app.config["REDIS_URL"] = os.environ.get("REDIS_URL", "redis://localhost:6379/0")
+app.config["REDIS_URL"] = os.environ.get("REDIS_URL", "redis://redis:6379/0")
 redis_client = FlaskRedis(app)
 
 # Determine if connected to Redis
