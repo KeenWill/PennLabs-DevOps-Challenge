@@ -5,6 +5,7 @@ metadata:
 spec:
   selector:
     app: pennlabs
+    tier: backend
   ports:
   - port: 6379
     targetPort: 0
