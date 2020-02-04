@@ -2,3 +2,5 @@ Dockerfile.prod
 
 # Mac files
 .DS_STORE
+
+kubeconfig.yaml

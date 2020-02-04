@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   app:
-    build: .
+    image: williamgoeller/pennlabs_devops_challenge:latest
     depends_on: 
       - redis
     volumes:
