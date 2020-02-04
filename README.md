@@ -4,10 +4,10 @@
 
 ### What did I complete?
 - Dockerized the provided Flask app
-- Created a docker-compose app that combines the Flask container with a redis container for local execution.
-- Created a travis CI/CD workflow that builds the Flask app and puts the dokcer container on [Docker Hub](https://hub.docker.com/repository/docker/williamgoeller/pennlabs_devops_challenge)
-- Using the kubeconfig provided by Peyton, deployed the Flask app and a Redis container to a k8s cluster (config files are in `/kube/`).
-- Connected a domain to the app (bennbabs.williamgoeller.com)
+- Created a docker-compose app that combines the Flask container with a redis container for a nice database/cache.
+- Created a travis CI/CD workflow that builds the Flask app and puts the docker container on [Docker Hub](https://hub.docker.com/repository/docker/williamgoeller/pennlabs_devops_challenge)
+- Using the kubeconfig provided by Peyton, deployed the Flask app and a Redis container to a DO-managed k8s cluster (config files are in `/kube/`).
+- Connected a domain to the app ([bennbabs.williamgoeller.com](http://bennbabs.williamgoeller.com))
 
 ### How to run (Locally)
 
