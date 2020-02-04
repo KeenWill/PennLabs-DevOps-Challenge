@@ -4,3 +4,8 @@ services:
 - docker
 script:
 - docker build -t pennlabs-devops-challenge .
+deploy:
+    provider: script
+    script: bash docker_push
+    on:
+      branch: master
